@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Princess Polymath"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Kirsten Hunter"
+description              : "I know lots of things..."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -18,9 +18,9 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : synedra
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -28,6 +28,25 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 # SEO Related
 google_site_verification :
@@ -37,7 +56,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : synedra
 facebook:
   username               :
   app_id                 :
@@ -63,11 +82,11 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Kirsten Hunter"
+  avatar           : "http://princesspolymath.com/headshot.jpg"
+  bio              : "I know lots of things..."
+  location         : "Santa Cruz"
+  email            : "synedra@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -75,18 +94,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "https://github.com/synedra"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "http://linkedin.com/in/synedra" 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "@synedra"
   vine             :
   weibo            :
   xing             :
@@ -108,6 +127,7 @@ exclude:
   - assets/js/_main.js
   - assets/js/vendor
   - Capfile
+  - vendor
   - CHANGELOG
   - config
   - Gemfile
@@ -150,7 +170,7 @@ kramdown:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: archive/page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 

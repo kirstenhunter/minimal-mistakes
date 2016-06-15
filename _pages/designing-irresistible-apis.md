@@ -1,0 +1,25 @@
+---
+id: 727
+title: Designing Irresistible APIs
+date: 2014-10-03T12:41:00+00:00
+author: admin
+layout: single
+guid: http://www.princesspolymath.com/princess_polymath/?page_id=727
+layout_key:
+  - 
+post_slider_check_key:
+  - 0
+tc-thumb-fld:
+  - 'a:2:{s:9:"_thumb_id";i:728;s:11:"_thumb_type";s:10:"attachment";}'
+---
+<a href="http://www.princesspolymath.com/princess_polymath/wp-content/uploads/2014/10/rockgarden.jpg" class="grouped_elements" rel="tc-fancybox-group727"><img class="alignleft wp-image-728 size-full" src="http://www.princesspolymath.com/princess_polymath/wp-content/uploads/2014/10/rockgarden.jpg" alt="rockgarden" width="640" height="379" srcset="http://www.princesspolymath.com/princess_polymath/wp-content/uploads/2014/10/rockgarden.jpg 640w, http://www.princesspolymath.com/princess_polymath/wp-content/uploads/2014/10/rockgarden-300x177.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></a>I spend a lot of time traveling around and teaching people how to make better APIs. The current focus of my talks is Designing Irresistible APIs &#8211; I&#8217;ll be giving this talk (or a version of it) at OSCON, and just presented it at Future Insights Live, as well as doing a [webcast](http://www.oreilly.com/pub/e/3088) to get people excited about OSCON. I&#8217;ve uploaded my slide deck on [slideshare](http://www.slideshare.net/synedra/designing-irresistible-ap-is) but I thought I should make a brief post summarizing the ideas in there. There&#8217;s a newer one [here](http://www.slideshare.net/synedra), and a copy of my [API 101 slide deck](http://www.slideshare.net/synedra/api-101) from APIStrat Chicago.
+
+### API Design Process
+
+  1. Understand the business value of your API.  Are you trying to drive usage, integrate with partners, attract new users, excite existing users?  Your API is unlikely to directly drive revenue unless it&#8217;s your main product, so understand what you want to get out of your API before you even start creating it.  Note that partner integration is a very strong business value, but what you want to know here is what would you tell your CEO if you were trapped in an elevator with him and he asked why you have an API.
+  2. How are you going to measure success?  API usage?  How many people use the API vs. the website (APIs are not as resource intensive and can be automated, helping you to create more solid integrations)?  How many partners are integrated?  Again, this is critical for the design process, and critical for communication to your management team, partners, and developer customers.
+  3. What use cases are you going to support?  Mobile, website, reporting&#8230; note that if you want to support a mobile experience, even for third party developers, you have to somehow support the idea of a single call per screen on the device &#8211; otherwise mobile developers will go elsewhere to integrate.
+  4. Now you can design your API.  Using a schema modeling language like [RAML, blueprint or swagger](http://apicodex.3scale.net/content/API_Design:_Do_you_Swagger,_Blueprint_or_RAML%3F) is a great way to visualize what your API looks like.  Extending the syntax to allow for expansion or defining exactly what a developer wants should be decided at this point.  Here&#8217;s a [post](https://medium.com/@zwacky/design-a-beautiful-rest-api-901c73489458) that discusses the choices you can make, but remember that you&#8217;re not making these decisions in an absolute way or in a vacuum, you&#8217;re honestly trying to meet the needs of your users through the use cases you&#8217;ve identified.  Let go of your desire to have a fully RESTful API if it doesn&#8217;t serve the needs of your users.  Make the use cases dead simple &#8211; if you don&#8217;t make a usable API, nobody&#8217;s going to use it.  Yes, this applies even to internal APIs &#8211; if your API is difficult you&#8217;ll be swamped with support requests and faced with a lot of internal strife.  Honor your users and their time and they&#8217;ll repay you by loving your API and evangelizing for you.
+  5. Great, you&#8217;ve designed your API and even made it.  Now check and make sure &#8211; are those use cases dead simple?  Great!  Now what you need to do is create a fantastic developer experience, from on boarding through all their use of the system.  Create a great [developer portal](http://www.3scale.net/2014/05/design-great-developer-portal-deliver-excellent-experience/).  Provide small-bite tutorials with example code.  Make the developer experience fun and engaging.  Play with your users!
+
+Your API needs to be a first class product to succeed.  Give it the thoughtful consideration you do for any of your products and you&#8217;ll have a much better chance of having a successful, engaging API.  If you want to learn more about APIs, you can find many great articles on [API Codex](http://apicodex.3scale.net), curated to give you an array of high quality content from some of the smartest API experts out there.
