@@ -1,16 +1,16 @@
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/
+    url: http://origin.princesspolymath.com:4000/about/
 
-  - title: "Sample Posts"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+  - title: "Presentations"
+    url: https://origin.princesspolymath.com:4000/presentations/
 
-  - title: "Sample Pages"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
+  - title: "Schedule"
+    url: https://origin.princesspolymath.com:4000/schedule/
 
-  - title: "Sample Collections"
-    url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
+  - title: "Blog"
+    url: https://origin.princesspolymath.com:4000/archive/
+
+  - title: "Book"
+    url: https://irresistibleapis.com/

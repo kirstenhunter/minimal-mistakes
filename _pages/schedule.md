@@ -2,6 +2,7 @@
 id: 835
 title: Presentations
 layout: single
+permalink: /schedule/
 tc-thumb-fld:
   - 'a:2:{s:9:"_thumb_id";i:841;s:11:"_thumb_type";s:10:"attachment";}'
 post_slider_check_key:

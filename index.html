@@ -10,9 +10,9 @@ header:
 excerpt: "I'm gathering information about programming languages and their communities, to work on a talk about bringing the communities together.  Fill out the form (as many times as you have languages to review) and get entered to win a $100 Amazon Gift Certificate.  Drawing is on July 1!"
 feature_row:
   - image_path: unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
+    alt: "World Globe"
     title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Where in the World is Kirsten?"
   - image_path: unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     title: "Placeholder 2"
@@ -62,8 +62,3 @@ author_profile: true
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts }}</h3>
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
